@@ -1,5 +1,5 @@
 .container {
-  background-image: url(/img/list.jpg);
+  background-image: url(./../img/list.jpg);
   width: 350px;
   height: 200px;
   border: 1px solid #0cc1f8db;
