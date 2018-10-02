@@ -34,4 +34,8 @@
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
+  background-color: royalblue;
+}
+.answer-items:hover {
+  background-color: turquoise;
 }
