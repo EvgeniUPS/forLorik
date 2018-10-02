@@ -1,0 +1,9 @@
+.task {
+  display: flex;
+}
+.task img {
+  max-width: 100px;
+}
+.sign {
+  margin-top: 20px;
+}
