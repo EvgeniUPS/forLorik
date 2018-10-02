@@ -1,9 +1,37 @@
+.container {
+  background-image: url(/img/list.jpg);
+  width: 350px;
+  height: 200px;
+  border: 1px solid #0cc1f8db;
+}
+
 .task {
+  height: 100%;
   display: flex;
+  /* justify-content: right; */
+  justify-content: center;
+  /* align-items: center; */
+}
+.digit {
+  align-self: center;
 }
 .task img {
   max-width: 100px;
+  margin: 0 auto;
 }
+
 .sign {
+  /* align-items: center; */
   margin-top: 20px;
+}
+.answer {
+  margin-top: 10px;
+  justify-content: space-around;
+  display: flex;
+}
+.answer-items {
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
 }

@@ -17,9 +17,8 @@ function randomNumber(min, max) {
   var rand = min - 0.5 + Math.random() * (max - min + 1);
   rand = Math.round(rand);
   return rand;
-  /*   let n = Math.floor(Math.random() * 10);
-  return n; */
 }
+
 let digit1 = randomNumber(1, 5);
 let digit2 = randomNumber(1, 5);
 let result = digit1 + digit2;
@@ -27,11 +26,12 @@ let result = digit1 + digit2;
 console.log(digit1);
 console.log(digit2);
 
-function getRandomNumber(id, digit) {
+function getRandomDigit(id, digit) {
   let parentEl = document.getElementById(id),
     img = document.createElement("IMG");
   img.src = numbers[digit];
   parentEl.appendChild(img);
 }
-getRandomNumber("num1", digit1);
-getRandomNumber("num2", digit2);
+
+getRandomDigit("num1", digit1);
+getRandomDigit("num2", digit2);
